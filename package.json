@@ -1,14 +1,23 @@
 {
-  "name": "static-site",
+  "name": "portfolio-generator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AS A developer\r I WANT a README generator\r SO THAT I can quickly create a professional README for a new project",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lernantino/portfolio-generator.git"
+  },
+  "author": "lernantino",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lernantino/portfolio-generator/issues"
+  },
+  "homepage": "https://github.com/lernantino/portfolio-generator#readme",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^8.1.5"
+  },
+  "devDependencies": {}
 }
